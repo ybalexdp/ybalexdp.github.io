@@ -7,7 +7,7 @@ export default class Header extends React.Component {
       <div>
         <div>
           <h1 class="title">
-            <a href="http://localhost:8080">ybalexdp.me</a>
+            <a href="https://ybalexdp.github.io/ybalexdp.github.io/">ybalexdp.me</a>
           </h1>
         </div>
         <div>
