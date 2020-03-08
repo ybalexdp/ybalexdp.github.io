@@ -11,8 +11,8 @@ export default class Links extends React.Component {
             </a>
           </li>
           <li>
-            <a href="#" target="_blank">
-              サッカーブログ(準備中)
+            <a href="https://ybalexdp-football.hatenablog.com/" target="_blank">
+              サッカーブログ
             </a>
           </li>
           <li>
