@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "webpack-dev-server",
+    "build": "webpack",
     "start": "webpack-dev-server --content-base --mode development --inline",
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1",
