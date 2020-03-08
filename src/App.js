@@ -6,7 +6,7 @@ import About from './components/About';
 import Links from './components/Links';
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div class="measure">
       <Header />
       <Route exact path="/" component={Links}></Route>
