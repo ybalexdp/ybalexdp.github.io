@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Baskervville|Odibee+Sans|Open+Sans+Condensed:300|M+PLUS+1p|Arapey&display=swap');
 
 @keyframes move {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(49vw, 0);
-  }
+  //0% {transform: translateX(0vw)}
+  100% {transform: translateX(80vw)}
 }
 .measure {
   margin: 0 auto;
@@ -26,13 +22,19 @@ body {
   }
 
   .turf {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     background-color: rgb(6, 129, 18);
+    overflow:hidden;
 
     .horserace1 {
       position: relative;
+      margin-right: 0;
       animation: move 3.5s linear infinite;
-      display: inline-block;
-
+      text-align: left;
+      width: 7vw;
+      -webkit-transform: translate(0);
       .tooltip {
         display: none;
       }
@@ -68,7 +70,8 @@ body {
     .horserace2 {
       position: relative;
       animation: move 4.5s linear infinite;
-      display: inline-block;
+      text-align: left;
+      width: 7vw;
       .tooltip {
         display: none;
       }
