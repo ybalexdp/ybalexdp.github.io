@@ -1,10 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|Baskervville|Odibee+Sans|Open+Sans+Condensed:300|M+PLUS+1p|Arapey&display=swap");
 @keyframes move {
-  0% {
-    transform: translate(0, 0); }
   100% {
-    transform: translate(49vw, 0); } }
+    transform: translateX(80vw); } }
 
 .measure {
   margin: 0 auto;
@@ -21,11 +19,18 @@ body .title {
     color: rgba(10, 8, 8, 0.637); }
 
 body .turf {
-  background-color: #068112; }
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #068112;
+  overflow: hidden; }
   body .turf .horserace1 {
     position: relative;
+    margin-right: 0;
     animation: move 3.5s linear infinite;
-    display: inline-block; }
+    text-align: left;
+    width: 7vw;
+    -webkit-transform: translate(0); }
     body .turf .horserace1 .tooltip {
       display: none; }
   body .turf .horserace1:hover .tooltip {
@@ -53,7 +58,8 @@ body .turf {
   body .turf .horserace2 {
     position: relative;
     animation: move 4.5s linear infinite;
-    display: inline-block; }
+    text-align: left;
+    width: 7vw; }
     body .turf .horserace2 .tooltip {
       display: none; }
   body .turf .horserace2:hover .tooltip {
