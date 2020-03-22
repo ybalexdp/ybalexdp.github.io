@@ -46,7 +46,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "acorn": "^7.1.1",
+    "acorn": "^6.4.1",
     "babel-plugin-react-html-attrs": "^2.1.0",
     "minimist": "^1.2.5",
     "node-sass": "^4.13.1",
