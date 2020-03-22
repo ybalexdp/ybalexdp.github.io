@@ -29,8 +29,7 @@ body .turf {
     margin-right: 0;
     animation: move 3.5s linear infinite;
     text-align: left;
-    width: 7vw;
-    -webkit-transform: translate(0); }
+    width: 7vw; }
     body .turf .horserace1 .tooltip {
       display: none; }
   body .turf .horserace1:hover .tooltip {
@@ -39,22 +38,17 @@ body .turf {
     padding: 10px;
     background-color: #fff3ad;
     width: 100px;
-    top: -70px;
-    left: calc(50% - 50px);
-    left: -10px; }
+    left: -130px; }
   body .turf .horserace1:hover .tooltip::before {
     content: '';
     position: absolute;
     display: block;
     width: 0;
-    height: 0;
-    left: 0;
-    right: 0;
-    bottom: -15px;
+    right: -10px;
     margin: 0 auto;
-    border-top: 15px solid #fff3ad;
-    border-right: 15px solid transparent;
-    border-left: 15px solid transparent; }
+    border-left: 15px solid #fff3ad;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent; }
   body .turf .horserace2 {
     position: relative;
     animation: move 4.5s linear infinite;
