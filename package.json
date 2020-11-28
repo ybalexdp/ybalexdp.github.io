@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/ybalexdp/ybalexdp.github.io/issues"
   },
-  "homepage": "https://github.com/ybalexdp/ybalexbp.github.io",
+  "homepage": "https://ybalexbp.github.io/ybalexdp.github.io",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/plugin-proposal-decorators": "^7.7.4",
@@ -46,7 +46,9 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "acorn": "^7.1.1",
     "babel-plugin-react-html-attrs": "^2.1.0",
+    "minimist": "^1.2.5",
     "node-sass": "^4.13.1",
     "prettier-stylelint": "^0.4.2",
     "react-redux": "^7.1.3",
