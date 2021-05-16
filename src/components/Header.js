@@ -22,6 +22,11 @@ export default class Header extends React.Component {
                 <i class="fab fa-twitter fa-2x icon"></i>
               </a>
             </li>
+            <li>
+              <a href="https://www.amazon.jp/hz/wishlist/ls/3GLDYINL3F797?ref_=wl_share" target="_blank">
+                <i class="fab fa-amazon fa-2x icon"></i>
+              </a>
+          </li>
           </ul>
         </div>
         <div>
